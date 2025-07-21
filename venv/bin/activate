@@ -39,10 +39,17 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
+<<<<<<< HEAD
     export VIRTUAL_ENV=$(cygpath /home/mehrac-developer/Desktop/flask_app/venv)
 else
     # use the path as-is
     export VIRTUAL_ENV=/home/mehrac-developer/Desktop/flask_app/venv
+=======
+    export VIRTUAL_ENV=$(cygpath /home/nuran/flask_app/venv)
+else
+    # use the path as-is
+    export VIRTUAL_ENV=/home/nuran/flask_app/venv
+>>>>>>> 01f2f40f8e1154f703ea4bad0821c488f7a2a350
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
