@@ -1,0 +1,26 @@
+ <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ <header>
+        <div class="logo">
+            <a href="/">blog.com</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="/blogs">Blog</a></li>
+                <li><a href="/contact">Contact us</a></li>
+            </ul>
+            <div class="login_sign">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+        </div>
+    </header>
+    <script>
+        const login = document.querySelector(".login")
+        const register = document.querySelector(".register")
+        login.addEventListener('click',()=>{
+            window.location.href="/login"
+        })
+        register.addEventListener('click',()=>{
+            window.location.href="/login"
+        })
+    </script>
