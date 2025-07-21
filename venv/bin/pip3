@@ -1,4 +1,4 @@
-#!/home/baratzade/Desktop/AlgoStudents/pythonMarch/flasklesson/lesson8/venv/bin/python3
+#!/home/nuran/flask_app/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
