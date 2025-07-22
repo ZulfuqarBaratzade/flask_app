@@ -8,7 +8,43 @@
 </head>
 <body>
     {% include 'navbar.html' %}
-   <h2>Hello</h2>
-   
+  <div class="container">
+  <div class="flex-div">
+    <div class="flex-image">
+      <img src="{{ url_for('media', filename=trip.jpg) }}">
+    </div>
+    <div class="flex-text">
+      <h2>Find things to do<br> for everything you're into</h2>
+    </div>
+  </div>
+</div>
+
+<div class="category-section">
+  <h2>Find things to do by interest</h2>
+  <p>Whatever you're into, we’ve got it</p>
+
+  <div class="category-grid">
+    <div class="category-card">
+      <div class="card-image"></div>
+      <div class="card-title">Outdoors</div>
+    </div>
+
+    <div class="category-card">
+      <div class="card-image"></div>
+      <div class="card-title">Food</div>
+    </div>
+
+    <div class="category-card">
+      <div class="card-image"></div>
+      <div class="card-title">Culture</div>
+    </div>
+
+    <div class="category-card">
+      <div class="card-image"></div>
+      <div class="card-title">Water</div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
