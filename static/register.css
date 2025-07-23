@@ -3,7 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
-header{
+.register{
     text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.basliq h1{
+    color: #333;
+}
+.qeydiyyat{
+    width: 200px;
+    height: 200px;
+        display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qeydiyyat input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.qeydiyyat button{
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 100%;
+    cursor:pointer;
 }

@@ -33,11 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-<<<<<<< HEAD
 set -gx VIRTUAL_ENV /home/mehrac-developer/Desktop/flask_app/venv
-=======
-set -gx VIRTUAL_ENV /home/nuran/flask_app/venv
->>>>>>> 01f2f40f8e1154f703ea4bad0821c488f7a2a350
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

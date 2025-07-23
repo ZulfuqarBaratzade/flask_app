@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #!/home/mehrac-developer/Desktop/flask_app/venv/bin/python3
-=======
-#!/home/nuran/flask_app/venv/bin/python3
->>>>>>> 01f2f40f8e1154f703ea4bad0821c488f7a2a350
 # -*- coding: utf-8 -*-
 import re
 import sys

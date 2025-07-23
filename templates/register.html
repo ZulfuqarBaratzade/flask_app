@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
 </head>
+
 <body>
     {% include 'navbar.html' %}
-    <header>
+    <div class="register">
         <div class="basliq">
             <h1>Register</h1>
         </div>
-        <div class="qeydiyyat">
-            <input type="text" placeholder="Username">
-            <input type="text" placeholder="Password">
-            <input type="text" placeholder="Email">
-        </div>
-    </header>
-    
+        <form class="qeydiyyat" method="post">
+            <input name="username" type="text" placeholder="Username">
+            <input name="password" type="text" placeholder="Password">
+            <input name="email" type="text" placeholder="Email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
+
 </html>
