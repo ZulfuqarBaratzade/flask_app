@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
 </head>
 <body>
     {% include 'navbar.html' %}
-    <h2>Register</h2>
-    <p>Rest</p>
+    <header>
+        <div class="basliq">
+            <h1>Register</h1>
+        </div>
+        <div class="qeydiyyat">
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+            <input type="text" placeholder="Email">
+        </div>
+    </header>
+    
 </body>
 </html>

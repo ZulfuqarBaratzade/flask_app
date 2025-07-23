@@ -8,40 +8,76 @@
 </head>
 <body>
     {% include 'navbar.html' %}
-  <div class="container">
+<div class="container">
   <div class="flex-div">
     <div class="flex-image">
-      <img src="{{ url_for('media', filename=trip.jpg) }}">
+      <img src="{{ url_for('media', filename=trip) }}">
     </div>
     <div class="flex-text">
-      <h2>Find things to do<br> for everything you're into</h2>
+      <h2>Find things to do<br>for everything you're into</h2>
     </div>
   </div>
 </div>
 
+
 <div class="category-section">
-  <h2>Find things to do by interest</h2>
+  <div class="sec-text">
+ <h2>Find things to do by interest</h2>
   <p>Whatever you're into, we’ve got it</p>
+  </div>
+ 
 
   <div class="category-grid">
-    <div class="category-card">
-      <div class="card-image"></div>
-      <div class="card-title">Outdoors</div>
+    <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=outdoors) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Outdoors</p>
+</div>
+
     </div>
 
-    <div class="category-card">
-      <div class="card-image"></div>
-      <div class="card-title">Food</div>
+   <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=food) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Food</p>
+</div>
+
     </div>
 
-    <div class="category-card">
-      <div class="card-image"></div>
-      <div class="card-title">Culture</div>
+   <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=culture) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Culture</p>
+</div>
+
     </div>
 
-    <div class="category-card">
-      <div class="card-image"></div>
-      <div class="card-title">Water</div>
+  <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=music) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Music</p>
+</div>
+
     </div>
   </div>
 </div>
