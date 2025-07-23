@@ -8,7 +8,79 @@
 </head>
 <body>
     {% include 'navbar.html' %}
-   <h2>Hello</h2>
-   <h2>Burda ders olacaq</h2>
+<div class="container">
+  <div class="flex-div">
+    <div class="flex-image">
+      <img src="{{ url_for('media', filename=trip) }}">
+    </div>
+    <div class="flex-text">
+      <h2>Find things to do<br>for everything you're into</h2>
+    </div>
+  </div>
+</div>
+
+
+<div class="category-section">
+  <div class="sec-text">
+ <h2>Find things to do by interest</h2>
+  <p>Whatever you're into, we’ve got it</p>
+  </div>
+ 
+
+  <div class="category-grid">
+    <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=outdoors) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Outdoors</p>
+</div>
+
+    </div>
+
+   <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=food) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Food</p>
+</div>
+
+    </div>
+
+   <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=culture) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Culture</p>
+</div>
+
+    </div>
+
+  <div class="image-wrapper">
+
+   <div class="cart1-img">
+    <img src="{{ url_for('media', filename=music) }}" class="festival-image">
+ 
+</div>
+
+<div class="cart1-p">
+    <p class="p-1">Music</p>
+</div>
+
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

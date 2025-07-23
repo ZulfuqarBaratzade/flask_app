@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/mehrac-developer/Desktop/flask_app/venv/bin/python3
+=======
+#!/home/ilkin-developer/Desktop/flask_app/venv/bin/python3
+>>>>>>> de81d73edfed31fef0be41f23524b78bb730f85c
 # -*- coding: utf-8 -*-
 import re
 import sys
